@@ -1,0 +1,153 @@
+.attribution {
+    background-color: yellow;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: "Young Serif";
+  src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+  font-family: "Outfit";
+  src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 18%, 87%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: hsl(30, 10%, 34%);
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 50%;
+  border-radius: 2%;
+}
+.omelette {
+  width: 90%;
+  border-radius: 16px;
+  margin: 5%;
+}
+
+h1 {
+  display: flex;
+  justify-content: left;
+  color: rgb(10, 10, 10);
+  margin-left: 5%;
+  margin-bottom: 2%;
+  font-family: "Young Serif";
+}
+
+.intro {
+  width: 89%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.subtitle {
+  width: 89%;
+  background-color: rgb(255, 243, 243);
+  margin-left: 5%;
+  margin-bottom: 5%;
+  padding: 16px;
+  border-radius: 8px;
+}
+.subtitle p {
+  color: rgb(128, 0, 73);
+  font-size: 24px;
+  margin-left: 2%;
+}
+
+.subtitle ul {
+  padding: 1% 4%;
+  line-height: 30px;
+}
+
+ul li {
+  list-style-position: outside;
+  padding-left: 16px;
+}
+
+ol li {
+  list-style-position: outside;
+  padding-left: 16px;
+}
+
+li::marker {
+  color: rgb(128, 0, 73);
+}
+
+.ingredient h2 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 16px;
+  margin-left: 5%;
+  font-family: "Young Serif";
+}
+.ingredient ul {
+  margin-left: 7%;
+  line-height: 30px;
+  margin-bottom: 5%;
+}
+hr {
+  width: 89%;
+  display: flex;
+  margin-left: 5%;
+}
+.instruction {
+  margin-top: 2%;
+}
+h2 {
+  color: hsl(332, 51%, 32%);
+  margin-left: 5%;
+  font-family: "Young Serif";
+  font-weight: 400;
+}
+.instruction ol {
+  margin-top: 2%;
+  margin-left: 7%;
+  width: 89%;
+}
+.instruction ol li {
+  margin-bottom: 8px;
+}
+
+.ruler {
+  width: 89%;
+  margin: 24px 0 0 5%;
+  display: flex;
+}
+.nu {
+  margin: 2% 0 2% 5%;
+}
+
+.nutdetail {
+  width: 89%;
+  margin: 0px 0px 2% 5%;
+}
+table {
+  width: 89%;
+  margin: auto;
+}
+td{
+    padding: 1rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    
+}
+.red {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+}
